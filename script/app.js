@@ -1,3 +1,10 @@
+let email = {},
+    password = {},
+    signInButton;
+
+function getDOMElements() {
+}
+
 function handleFloatingLabel() {
    
 }
@@ -7,7 +14,8 @@ function handlePasswordSwitcher() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('Script loaded!');
+    console.log('Hallokes 🥳');
     handleFloatingLabel();
     handlePasswordSwitcher();
+    getDOMElements();
 });
